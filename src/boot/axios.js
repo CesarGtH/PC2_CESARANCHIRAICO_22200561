@@ -10,6 +10,9 @@ import axios from "axios";
 const api = axios.create({
   baseURL: "http://68.183.142.21/",
 });
+const api2 = axios.create({
+  baseURL: "https://api.themoviedb.org",
+});
 export default boot(({ app }) => {
   // for use inside Vue files (Options API) through this.$axios and this.$api
 
